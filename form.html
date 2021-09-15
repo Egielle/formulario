@@ -1,0 +1,94 @@
+<!DOCTYPE html><html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Formulário de contato</title>
+<style type="text/css">
+  .legend { 
+    text-align: center;
+    }
+    
+    label, fieldset {
+      color: #363636;
+      background: #DCDCDC;
+      position: center;
+      font-family: Poppins;
+    }
+    .bt {
+      background-color: #000000;
+      color: #DCDCDC;
+      position: center;
+      border: 2px solid #1C1C1C;
+      border-radius:10px;
+      cursor:pointer;
+      font-family:Poppins;
+      font-weight:DM Sans;
+      font-size:15px;
+      align-items: center;
+      padding:6px 10px;
+    } 
+    .input {
+       text-align: center;
+      
+      
+    }
+    .form {
+      text-align: center;
+      font-size: 20px;
+    
+
+    }  
+
+    input{
+      text-align: center;
+    }
+      </style>
+</head>
+
+<body>
+<form class="form" method= "post" action="post.php">
+<fieldset>
+<legend class= "title"> <b> Preencha os Campos:</legend></b><br>
+
+<div class="name">
+<label for="name">Nome:</label>
+<input type="text" name="txt_nome"
+id="text_nome" placeholder= "Digite seu nome">
+</div>
+
+<br>
+<div class="Idade">
+<label for="Idade">Idade:</label>
+<input type="text" name="txt_idade"
+id="text_idade" placeholder= "Digite sua idade">
+</div>
+
+<br>
+<div class="Estado">
+<label for="Estado">Estado:</label>
+<input type="text" name="txt_estado"
+id="text_estado" placeholder= "Digite seu estado">
+</div>
+
+<br>
+<div class="Cidade">
+<label for="Cidade">Cidade:</label>
+<input type="text" name="txt_cidade"
+id="text_cidade" placeholder= "Digite sua cidade">
+</div>
+
+<br>
+<div class="Email">
+<label for="Email">E-mail:</label>
+<input type="text" name="txt_email"
+id="text_email" placeholder= "Digite seu email">
+</div>
+
+<br>
+<div class="input">
+<input class="bt" type= "submit">
+</div>
+</fieldset>
+</form>
+</body>
+</html>
